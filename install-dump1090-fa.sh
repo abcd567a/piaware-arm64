@@ -15,7 +15,7 @@ sudo dpkg -i librtlsdr-dev_0.6_arm64.deb
 sudo dpkg -i dump1090-fa_3.8.1_arm64.deb
 
 echo -e "\e[32mDUMP1090-FA INSTALLATION COMPLETED \e[39m"
-echo -e "\e[33mPre-built packages are available in folder " ${PWD}/dump1090-fa-pkg " \e[39m"
+echo -e "\e[33mPre-built packages are available in folder " ${PWD} " \e[39m"
 echo ""
 echo -e "\e[31mREBOOT PI \e[39m"
 echo -e "\e[31mREBOOT PI \e[39m"
