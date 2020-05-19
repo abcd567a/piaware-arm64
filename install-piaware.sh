@@ -19,7 +19,7 @@ sudo apt install net-tools tclx8.4 tcllib itcl3
 sudo dpkg -i piaware_3.8.1.ubuntu1804+1_arm64.deb
 
 echo -e "\e[32mPIAWARE INSTALLATION COMPLETED \e[39m"
-echo -e "\e[33mPre-built packages are available in folder " ${PWD}/piaware-pkg " \e[39m"
+echo -e "\e[33mPre-built packages are available in folder " ${PWD} " \e[39m"
 echo ""
 echo -e "\e[33mIf you already have  feeder-id, please configure piaware with it \e[39m"
 echo -e "\e[33mIf you dont already have a feeder-id, please go to Flightaware Claim page  \e[39m"
