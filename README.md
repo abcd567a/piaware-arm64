@@ -1,7 +1,5 @@
 # piaware-arm64
-Installation of dump1090-fa and piaware 3.8.1 on Ubuntu 20 arm64 / RPi 4 (using Pre-built packages)
-
-### dump1090-fa and piaware installation script for RPi 4 and Ubuntu arm64 
+### Installation of dump1090-fa and piaware 3.8.1 on Ubuntu 20 arm64 / RPi 4 (using Pre-built packages)
 </br>
 
 ## (1) DUMP1090-FA
