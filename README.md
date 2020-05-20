@@ -15,3 +15,10 @@ Copy-paste following command in SSH console and press Enter key. The script will
 
 Copy-paste following command in SSH console and press Enter key. The script will install piaware. </br></br>
 `sudo bash -c "$(wget -O - https://raw.githubusercontent.com/abcd567a/piaware-arm64/master/install-piaware.sh)" `</br></br>
+
+**PIAWARE ALTERNATE SCRIPT (EXPERIMENTAL)** </br>
+The script below installs bare minimum dependency packages, and is therefore faster and lighter. </br>
+In case of problem or failure, run the above regular bash script </br></br>
+Copy-paste following command in SSH console and press Enter key. The script will install piaware. </br></br>
+`sudo bash -c "$(wget -O - https://raw.githubusercontent.com/abcd567a/piaware-arm64/master/lite-install-piaware.sh)" `</br></br>
+
