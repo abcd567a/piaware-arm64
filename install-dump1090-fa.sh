@@ -12,6 +12,7 @@ cd ${PWD}/dump1090-fa-pkg
 sudo apt install libncurses5-dev lighttpd libusb-1.0-0-dev
 sudo dpkg -i librtlsdr0_0.6_arm64.deb
 sudo dpkg -i librtlsdr-dev_0.6_arm64.deb 
+sudo apt-mark hold librtlsdr0 librtlsdr-dev 
 sudo dpkg -i dump1090-fa_3.8.1_arm64.deb
 
 echo -e "\e[32mDUMP1090-FA INSTALLATION COMPLETED \e[39m"
