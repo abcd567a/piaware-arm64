@@ -10,6 +10,9 @@ echo -e "\e[32mInstalling piaware dependencies \e[39m"
 cd ${PWD}/piaware-pkg
 sudo apt install libtcl8.6
 sudo dpkg -i tcl-tls_1.7.16-1+fa1_arm64.deb
+echo -e "\e[32mBlocking auto-upgrade of tcl-tls \e[39m"
+sudo apt-mark hold tcl-tls 
+
 sudo apt install libboost-program-options1.71.0 libboost-regex1.71.0 net-tools tclx8.4 tcllib itcl3
 echo -e "\e[32mInstalling piaware \e[39m"
 sudo dpkg -i piaware_3.8.1.ubuntu1804+1_arm64.deb
